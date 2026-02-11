@@ -1,2 +1,69 @@
 ﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-section {
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.input-text {
+    display: block;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.boton_verde {
+    border: none;
+    padding: 8px 12px;
+    width: auto;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #28a745;
+    color: white;
+}
+
+.boton_verde {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-red {
+    background-color: #dc3545;
+    color: white;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f2f2f2;
 }
